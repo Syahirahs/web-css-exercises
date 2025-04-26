@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Who Am I</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2a4d69;
+      text-align: center;
+    }
+
+    .info-box {
+      border: 2px solid #2a4d69;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .footer {
+      text-align: center;
+      font-style: italic;
+      color: #888;
+      margin-top: 20px;
+    }
+  </style>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Who Am I</h1>
+
+  <div class="info-box">
+    <p><strong>Name:</strong> <span style="color: #e74c3c;">Nur Syahirah Izani Binti Ros Zanian</span></p> <!-- Inline style -->
+    <p><strong>Age:</strong> 22 years old</p>
+    <p><strong>University:</strong> I'm currently studying at Universiti Malaysia Perlis</p>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Nur Syahirah Izani
+  </div>
+
+</body>
+</html>
